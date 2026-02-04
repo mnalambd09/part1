@@ -3,30 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amar Prothom Website</title>
+    <title>Premium Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Amar<span>Brand</span></div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <h1>Amar Website-e Shagotom</h1>
-        <p>Ami ekjon passion-driven developer. Ekhane amar kajer sob details paben.</p>
-        <button class="btn">Ar-o Janun</button>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Dev<span>Studio</span></h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Amra Toiri Kori <br> <span>Agamir Digital Future</span></h2>
+            <p>Modern design ebong advanced technology-r somonwoye apnar business-ke niye jan onno ucchotay.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn-primary">Kaj Dekhun</a>
+                <a href="#contact" class="btn-secondary">Shorasori Bolun</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Amader Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Clean code ebong fast loading website toiri kori.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Dekhte sundor ebong easy-to-use interface design.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Apnar brand-ke manuser kache pouche deyai kaj.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 Amar Brand | All Rights Reserved</p>
+        <p>&copy; 2026 DevStudio | Design with ❤️ by AI</p>
     </footer>
+
 </body>
 </html>
