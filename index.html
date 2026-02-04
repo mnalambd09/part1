@@ -3,61 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Portfolio Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Ultimate Pro Website 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="container">
-            <h1 class="logo">Dev<span>Studio</span></h1>
+    <header>
+        <nav class="container">
+            <div class="logo">Elite<span>Dev</span></div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
-    </nav>
+            <a href="#contact" class="nav-cta">Let's Talk</a>
+        </nav>
+    </header>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Amra Toiri Kori <br> <span>Agamir Digital Future</span></h2>
-            <p>Modern design ebong advanced technology-r somonwoye apnar business-ke niye jan onno ucchotay.</p>
-            <div class="hero-btns">
-                <a href="#services" class="btn-primary">Kaj Dekhun</a>
-                <a href="#contact" class="btn-secondary">Shorasori Bolun</a>
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">Welcome to the Future</span>
+                <h1>Perfect Solution For <br><span class="gradient-text">Your Digital Brand</span></h1>
+                <p>Amra sudhu website banai na, amra apnar shopno-ke bastov rup dei modern design ebong advanced technology diye.</p>
+                <div class="btn-group">
+                    <a href="#services" class="btn btn-main">Our Services</a>
+                    <a href="#" class="btn btn-alt">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" alt="About Us">
+                </div>
+                <div class="about-text">
+                    <h2>Amader Somporke Janun</h2>
+                    <p>Amra ekjhok torun developer jara bishwash kori simple kintu powerful design-e. 2026-er sobcheye modern tool use kore amra kaj kori.</p>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> Fast & Optimized Code</li>
+                        <li><i class="fas fa-check-circle"></i> Mobile Responsive Design</li>
+                        <li><i class="fas fa-check-circle"></i> 24/7 Support System</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title">Amader Services</h2>
-            <div class="service-grid">
-                <div class="service-card">
-                    <i class="fas fa-code"></i>
+            <div class="section-header">
+                <h2>Amader Bisheshotto</h2>
+                <p>Amra ei dhoroner service gulo khub jotner sathe diye thaki.</p>
+            </div>
+            <div class="service-cards">
+                <div class="card">
+                    <div class="icon-box"><i class="fas fa-laptop-code"></i></div>
                     <h3>Web Development</h3>
-                    <p>Clean code ebong fast loading website toiri kori.</p>
+                    <p>Clean code ebong custom functionality-r sathe website toiri.</p>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-paint-brush"></i>
-                    <h3>UI/UX Design</h3>
-                    <p>Dekhte sundor ebong easy-to-use interface design.</p>
+                <div class="card">
+                    <div class="icon-box"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>App Design</h3>
+                    <p>Modern UI/UX design jeta apnar user-der bhalolagbe.</p>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-bullhorn"></i>
-                    <h3>Digital Marketing</h3>
-                    <p>Apnar brand-ke manuser kache pouche deyai kaj.</p>
+                <div class="card">
+                    <div class="icon-box"><i class="fas fa-rocket"></i></div>
+                    <h3>SEO Optimization</h3>
+                    <p>Google Search-e apnar site-ke shobcheye upore niye asa.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-box">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" placeholder="Apnar Naam" required>
+                        <input type="email" placeholder="Apnar Email" required>
+                    </div>
+                    <textarea placeholder="Apnar Message likhun..." rows="5" required></textarea>
+                    <button type="submit" class="btn-main">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2026 DevStudio | Design with ❤️ by AI</p>
+        <div class="container">
+            <p>&copy; 2026 EliteDev Studio. All Rights Reserved.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
     </footer>
 
 </body>
